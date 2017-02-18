@@ -1,0 +1,76 @@
+body{
+	/*padding-top: 65px; */
+	/*background-color: #000000;*/
+}
+
+.navbar{
+	height: 84px;
+    /*background-color: #A5D8D8;*/
+    background-color: #D4ECEC;
+}
+.wrapper {
+    clear: both;
+    width: 100%;
+}
+.section-title{
+	padding-bottom: 10px;
+	text-align: center;
+}
+.section-inner-row{
+	padding: 40px 0px;
+}
+.main-section-title{
+	color: #4AB19A;
+	text-align: center;
+}
+#main-section {
+    text-align: center;
+    color: #000;
+    padding-top: 35px;
+    padding-bottom: 24px;
+    position: relative;
+    background-color: #D4ECEC;
+    height: 90vh;
+}
+#about-section{
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 80px 0px 40px 0px;
+}
+.skills-title{
+	color: #d47979;
+}
+#skills-section{
+	background-color: rgba(235, 204, 204, 0.45);
+	/*text-align: center;*/
+	padding: 40px 0px 40px 0px;
+}
+#portfolio-section{
+	padding: 40px 0px 40px 0px;
+}
+.cetifications-title{
+	/*color: #7A4791;*/
+	/*color: #46005D;*/
+	color: #6d3f7b;
+}
+#certifications-section{
+	padding: 40px 0px 40px 0px;
+	/*background-color: #CFA8D5;*/
+	/*background-color: #EADDED;*/
+	background-color: #E3D9E7;
+}
+#contact-section{
+	padding: 40px 0px 40px 0px;
+}
+#footer{
+	background-color: #4ab19a;
+	/*background-color: #6DC9C9;*/
+	/*background-color: #D4ECEC;*/
+	color: #FFFFFF;
+	padding: 20px 10px 10px 10px;
+}
+.personal-description{
+	font-size: 55px;
+	color: #586667;
+	padding-top: 50px;
+}
