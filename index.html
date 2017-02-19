@@ -4,17 +4,19 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- Custom Css-->
     <link rel="stylesheet" href="css/style.css">
+   
   </head>
   <body>
 
     <section class="">
       <header id="" >
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded nav-fixed-top">
+        <nav class="navbar navbar-toggleable-md  fixed-top navbar-light bg-faded">
           <div class="container">
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -58,10 +60,11 @@
     </section>
 
     <!-- About -->
-    <section  class="wrapper" id="about-section">
+    <section  class="wrapper aniview" id="about-section" data-av-animation="slideInUp">
       <div class="container">
         <p>Icon here</p>
         <h1 class="section-title main-section-title">About Me</h1>
+
         <div class= "row section-inner-row">
           <div class="col-md-12">
             <p>
@@ -76,8 +79,8 @@
     <!-- Skills -->
     <section class="wrapper" id="skills-section">
       <div class="container">
-        <h1 class="text-center section-title skills-title"> What I can do </h1>
-        <div class= "row section-inner-row">
+        <h1 class="text-center section-title skills-title aniview" data-av-animation="slideInRight"> What I can do </h1>
+        <div class= "row section-inner-row aniview fast" data-av-animation="fadeIn">
           <div class="col-md-4">
             <p>
               Icon here
@@ -90,7 +93,7 @@
             </p>
           </div>      
         </div>
-        <div class= "row section-inner-row">
+        <div class= "row section-inner-row aniview fast" data-av-animation="fadeIn">
           <div class="col-md-8">
             <h3 class="skills-title">Responsive web design</h3>
             <p>
@@ -103,7 +106,7 @@
             </p>
           </div>      
         </div>
-        <div class= "row section-inner-row">
+        <div class= "row section-inner-row aniview fast" data-av-animation="fadeIn">
           <div class="col-md-4">
             <p>
               Icon here
@@ -162,6 +165,7 @@
       </div>
     </section>
 
+
     <!-- footer -->
     <footer class="" id="footer">
       <div class="container">
@@ -175,6 +179,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="js/typed.min.js"></script>
+    <script src="js/jquery.aniview.js"></script>
     <script src="js/javascript.js"></script>
   </body>
 </html>

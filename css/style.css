@@ -21,6 +21,7 @@ body{
 .main-section-title{
 	color: #4AB19A;
 	text-align: center;
+	padding-top: 80px;
 }
 #main-section {
     text-align: center;
@@ -29,7 +30,7 @@ body{
     padding-bottom: 24px;
     position: relative;
     background-color: #D4ECEC;
-    height: 90vh;
+    height: 100vh;
 }
 #about-section{
 	background-color: #FFFFFF;
@@ -72,4 +73,24 @@ body{
 	font-size: 55px;
 	color: #586667;
 	padding-top: 50px;
+}
+
+/*Style for animations*/
+.fast {
+    -moz-animation-duration: 1s;
+    -moz-animation-delay: 0s;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: 0s;
+}
+.slow {
+    -moz-animation-duration: 3s;
+    -moz-animation-delay: 1s;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-delay: 1s;
+}
+.reallyslow {
+    -moz-animation-duration: 6s;
+    -moz-animation-delay: 3s;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-delay: 3s;
 }
