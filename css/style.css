@@ -1,11 +1,14 @@
 body{
+
 	/*padding-top: 65px; */
 	/*background-color: #000000;*/
 }
 .navbar{
+	background-color: #61cdb6;
+	color:#FFFFFF;
 	height: 84px;
     /*background-color: #A5D8D8;*/
-    background-color: #D4ECEC;
+    /*background-color: #D4ECEC;*/
 }
 .wrapper {
     clear: both;
@@ -18,16 +21,26 @@ body{
 .section-inner-row{
 	padding: 40px 0px;
 }
-.main-section-title{
-	color: #4AB19A;
+.main-title{
+	color: #FFFFFF;
 	text-align: center;
 	padding-top: 80px;
 }
+.main-section-title{
+	color: #61CDB6;
+	text-align: center;
+	padding-top: 80px;
+}
+
 #main-section {
+	background-image: url(/images/bg1.png);
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center center;
     text-align: center;
     color: #000;
-    padding-top: 35px;
-    padding-bottom: 24px;
+    /*padding-top: 35px;
+    padding-bottom: 24px;*/
     position: relative;
     background-color: #D4ECEC;
     height: 100vh;
@@ -71,10 +84,18 @@ body{
 }
 .personal-description{
 	font-size: 55px;
-	color: #586667;
+	color: #FFFFFF;
 	padding-top: 50px;
 }
-
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-brand{
+	color:  #f2f2f2;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color:  #f2f2f2;
+}
 /*Style for animations*/
 .fast {
     -moz-animation-duration: 1s;
