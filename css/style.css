@@ -1,5 +1,4 @@
 body{
-
 	/*padding-top: 65px; */
 	/*background-color: #000000;*/
 }
@@ -7,12 +6,12 @@ body{
 	background-color: #61cdb6;
 	color:#FFFFFF;
 	height: 84px;
-    /*background-color: #A5D8D8;*/
-    /*background-color: #D4ECEC;*/
+	/*background-color: #A5D8D8;*/
+	/*background-color: #D4ECEC;*/
 }
 .wrapper {
-    clear: both;
-    width: 100%;
+	clear: both;
+	width: 100%;
 }
 .section-title{
 	padding-bottom: 10px;
@@ -31,19 +30,16 @@ body{
 	text-align: center;
 	padding-top: 80px;
 }
-
 #main-section {
-	background-image: url(/images/bg1.png);
-	 background-attachment: fixed;
-	 background-size: cover;
-	 background-position: center center;
-    text-align: center;
-    color: #000;
-    /*padding-top: 35px;
-    padding-bottom: 24px;*/
-    position: relative;
-    background-color: #D4ECEC;
-    height: 100vh;
+	background-image: url(../images/bg1.png);
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+	color: #000;
+	position: relative;
+	background-color: #D4ECEC;
+	height: 100vh;
 }
 #about-section{
 	background-color: #FFFFFF;
@@ -91,27 +87,27 @@ body{
 	color:  #f2f2f2;
 }
 .navbar-light .navbar-nav .nav-link {
-    color: #FFFFFF;
+	color: #FFFFFF;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-    color:  #f2f2f2;
+	color:  #f2f2f2;
 }
 /*Style for animations*/
 .fast {
-    -moz-animation-duration: 1s;
-    -moz-animation-delay: 0s;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-delay: 0s;
+	-moz-animation-duration: 1s;
+	-moz-animation-delay: 0s;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
 }
 .slow {
-    -moz-animation-duration: 3s;
-    -moz-animation-delay: 1s;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-delay: 1s;
+	-moz-animation-duration: 3s;
+	-moz-animation-delay: 1s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-delay: 1s;
 }
 .reallyslow {
-    -moz-animation-duration: 6s;
-    -moz-animation-delay: 3s;
-    -webkit-animation-duration: 6s;
-    -webkit-animation-delay: 3s;
+	-moz-animation-duration: 6s;
+	-moz-animation-delay: 3s;
+	-webkit-animation-duration: 6s;
+	-webkit-animation-delay: 3s;
 }
